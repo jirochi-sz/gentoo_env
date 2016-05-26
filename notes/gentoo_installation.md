@@ -39,12 +39,12 @@
 
 ## Display Resolutions
 ### how to define new display resolutions
-1. run `cvt x_pixel y_pixel` (i.e. cvt 1920 1080)
+1. run `cvt x_pixel y_pixel` (ex. `cvt 1920 1080`)
 2. copy the output of cvt after Modeline "1920x1080_60.00" ~
 3. run `xrandr --newmode (bunch of numbers after Modeline in 2)
    * ex: `xrandr --newmode "1368x768_60.00" 85.25 1368 1440 1576 1784 768 771 781 798 -hsync +vsync`
-4. run `xrandr --addmode VBOX0 "1368x768_60.00"
-5. run `xrandr --output VBOX0 --mode "1368x768_60.00"
+4. run `xrandr --addmode VBOX0 "1368x768_60.00"`
+5. run `xrandr --output VBOX0 --mode "1368x768_60.00"`
 
 
 
